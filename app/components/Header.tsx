@@ -14,14 +14,14 @@ before:duration-700
 
 function Header() {
   return (
-    <div>
+    <header>
       <header className="flex items-center justify-between text-center md:px-[11.5%] md:my-11">
-        <h1 className="cursor-pointer text-2xl font-bold">
+        <h1 className="cursor-pointer text-2xl font-bold tracking-[1.2px]">
           <Link href="/" className={TestButtonStyle}>
             MN PRODUCTIONS
           </Link>
         </h1>
-        <div className="flex gap-x-32 items-center px-10 py-1.5 text-lg text-neutral-300">
+        <div className="flex gap-x-32 items-center px-10 py-1.5 text-lg text-white">
           <Link href="/" className={ButtonStyle}>
             Home
           </Link>
@@ -36,7 +36,7 @@ function Header() {
           </Link>
         </div>
       </header>
-    </div>
+    </header>
   );
 }
 

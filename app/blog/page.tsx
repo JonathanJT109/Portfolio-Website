@@ -1,9 +1,10 @@
 import React from "react";
+import Maintenance from "../components/Maintenance";
 
 function BlogPage() {
   return (
     <div>
-      <h1>This is the Blog Page</h1>
+      <Maintenance />
     </div>
   );
 }

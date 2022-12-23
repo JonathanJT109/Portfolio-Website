@@ -1,9 +1,11 @@
+import { Main } from "next/document";
 import React from "react";
+import Maintenance from "../components/Maintenance";
 
 function AboutPage() {
   return (
     <div>
-      <h1>This is the About Page</h1>
+      <Maintenance />
     </div>
   );
 }

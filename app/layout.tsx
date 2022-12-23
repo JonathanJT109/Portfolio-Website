@@ -8,11 +8,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html className="m-0 p-0">
       <head />
-      <body className="bg-black text-neutral-100 flex flex-col min-h-screen box-border m-0 p-0">
+      <body className="bg-black text-neutral-100 flex flex-col min-h-screen m-0 p-0">
         <Header />
-        <div className="container m-auto flex-grow">{children}</div>
+        <div className="container m-auto min-h-full space-y-40">{children}</div>
         <Footer />
       </body>
     </html>
