@@ -1,7 +1,7 @@
 import React from "react";
 import Introduction from "./components/Introduction";
 import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills";
+import Skills from "./components/Skills/Skills";
 
 function HomePage() {
   return (

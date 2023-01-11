@@ -6,16 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-brands-svg-icons": "^6.2.1",
-    "@fortawesome/free-regular-svg-icons": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@ramonak/react-progress-bar": "^5.0.3",
     "@tanem/react-nprogress": "^5.0.21",
     "embla-carousel-react": "^7.0.5",
     "next": "latest",
+    "nextjs-progressbar": "^0.0.16",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
     "react-social-icons": "^5.15.0",
     "zustand": "^4.1.5"
   },

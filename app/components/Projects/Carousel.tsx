@@ -4,7 +4,7 @@ import Project from "./Project";
 import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 import { data } from "./projectInfo.js";
 import { flushSync } from "react-dom";
-import "./styles.css";
+import "./projects-styles.css";
 
 //const slides: number = Object.keys(Information).length;
 const slides = Array.from(Array(data.length).keys());

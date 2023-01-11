@@ -10,7 +10,7 @@ const iconStyle = {
 
 function Introduction() {
   return (
-    <div className="flex bg-neutral-900 rounded-3xl px-10 h-[40rem] items-center w-full">
+    <div className="flex bg-neutral-900/25  rounded-3xl px-10 h-[40rem] items-center w-full">
       <section className="h-full flex flex-col space-y-5 ml-12 mr-7 pt-[310px]">
         <SocialIcon
           url="https://github.com/JonathanJT109"
