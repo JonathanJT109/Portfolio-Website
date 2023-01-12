@@ -4,7 +4,7 @@ import { data } from "./experienceInfo.js";
 
 function Experience() {
   return (
-    <div className="overflow-hidden flex-col bg-neutral-900/80 rounded-3xl h-[48rem] m-auto">
+    <div className="section-styles overflow-hidden flex-col h-[48rem] m-auto">
       <h1 className="text-center pt-10 text-3xl font-bold">Experience</h1>
       {data.map((item, index) => (
         <div key={index}>

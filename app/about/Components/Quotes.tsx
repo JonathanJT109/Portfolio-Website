@@ -4,16 +4,18 @@ import Quote from "./Quote.tsx";
 
 function Quotes() {
   return (
-    <div className="flex">
-      {references.map((item, index) => (
-        <div key={index}>
-          <Quote
-            quote={item.quote}
-            author={item.author}
-            company={item.company}
-          />
-        </div>
-      ))}
+    <div className="p-6">
+      <div className="flex flex-wrap">
+        {references.map((item, index) => (
+          <div key={index} className="h-full">
+            <Quote
+              quote={item.quote}
+              author={item.author}
+              company={item.company}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

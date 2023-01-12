@@ -17,4 +17,16 @@ export const references = [
     author: "Mike Brown",
     company: "Tech Co.",
   },
+  {
+    quote:
+      "Mary was a pleasure to work with. She was always willing to go the extra mile to ensure our project was a success.",
+    author: "Mike Brown",
+    company: "Tech Co.",
+  },
+  {
+    quote:
+      "Mary was a pleasure to work with. She was always willing to go the extra mile to ensure our project was a success.",
+    author: "Mike Brown",
+    company: "Tech Co.",
+  },
 ];

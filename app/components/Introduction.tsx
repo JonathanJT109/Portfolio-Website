@@ -10,7 +10,7 @@ const iconStyle = {
 
 function Introduction() {
   return (
-    <div className="flex bg-neutral-900/25  rounded-3xl px-10 h-[40rem] items-center w-full">
+    <div className="section-styles flex px-10 h-[40rem] items-center">
       <section className="h-full flex flex-col space-y-5 ml-12 mr-7 pt-[310px]">
         <SocialIcon
           url="https://github.com/JonathanJT109"
@@ -31,7 +31,7 @@ function Introduction() {
           style={iconStyle}
         />
       </section>
-      <div className="h-full w-2/5 pt-32 mr-[120px]">
+      <div className="h-full w-2/5 pt-[134px] mr-[120px]">
         <h2 className="tracking-wide text-6xl md:mb-.5 font-bold">
           Hello! My name is Jonathan
         </h2>
@@ -47,9 +47,6 @@ function Introduction() {
           that designing and creating is not as difficult as some might think.
           You can find the repository of this project and more in my Github
           page.{" "}
-          <span className="mt-2 flex font-bold tracking-[1.3px] underline underline-offset-4 uppercase">
-            Thanks for visting my website. Enjoy!
-          </span>
         </p>
       </div>
       <Image

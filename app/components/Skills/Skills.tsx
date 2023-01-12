@@ -4,7 +4,7 @@ import { data } from "./skillInfo";
 
 function Skills() {
   return (
-    <div className="flex-col bg-neutral-900 rounded-3xl md:h-[51rem]">
+    <div className="section-styles flex-col md:h-[51rem]">
       <h1 className="text-center pt-7 text-3xl font-bold">Skills</h1>
       <hr className="mt-7 mx-40 mb-14" />
       {data.map((element, index) => (

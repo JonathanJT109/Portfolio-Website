@@ -9,3 +9,11 @@ html {
 .links {
   @apply hover:text-sky-300 hover:underline duration-500;
 }
+
+.section-styles {
+  @apply bg-neutral-900/[.58] rounded-3xl w-full;
+}
+
+.button-styles {
+  @apply font-bold text-neutral-100 tracking-wide hover:bg-sky-700 hover:text-neutral-200 duration-200 bg-sky-500 py-2 w-44 rounded-md;
+}

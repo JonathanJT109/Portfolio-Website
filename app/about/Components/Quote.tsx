@@ -6,14 +6,18 @@ interface data {
   company: string;
 }
 
-function Quotes({ quote, author, company }: data) {
+function Quote({ quote, author, company }: data) {
   return (
-    <div>
-      <p>{quote}</p>
-      <p>{author}</p>
-      <p>{company}</p>
+    <div className="card rounded-lg shadow-lg mr-12 w-56 h-[100%]">
+      <div className="card-content p-4">
+        <p className="text-lg font-medium">"{quote}"</p>
+        <p className="text-sm text-gray-800">{author}</p>
+      </div>
+      <div className="card-footer bg-gray-400 p-4">
+        <p className="text-xs font-medium text-center">{company}</p>
+      </div>
     </div>
   );
 }
 
-export default Quotes;
+export default Quote;
