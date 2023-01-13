@@ -1,27 +1,42 @@
-# Next.js + Tailwind CSS Example
+## Portfolio Website
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+The website I created is a demonstration of my skills in web development. I used
+a variety of technologies to build it, including Next.js for the framework,
+Tailwind CSS for the styling, Node.js for the backend, and GitHub for version
+control and collaboration. The website showcases my ability to work with these
+technologies to create a functional and visually appealing website. I have
+designed and developed the website to be responsive and user-friendly, making it
+easy for visitors to navigate and find the information they need. Overall, the
+website serves as a portfolio of my web development skills and experience.
 
-## Deploy your own
+I will be constantly trying to improve the design and the code. If you have any
+suggestions, please either contact me through my social media or make a pull
+request.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![](./public/Desktop_Preview.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### Download the project
 
-## How to use
+Clone the repository:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+```
+git clone https://github.com/JonathanJT109/jonathanjt109.github.io.git
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+And download the packages and dependencies:
+
+```
+npm install
 ```
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+Finally, run the project:
+
+```
+npm run dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Social Media
+
+**Email:** jonathangon.2014@gmail.com
+
+**Instagram:** @jonathanjt109
